@@ -54,6 +54,21 @@ def updateGame(id):
         data = jsonify(db[id])
     return data
 
+@app.route('/games/<id>', methods=['DELETE']) 
+def updateGame(id):
+    id = int(id)
+    length = len(db)
+    data = ""
+
+    if length <= id: 
+        data = jsonify("No game with that id")
+    elif length > id:
+        deleted = jsonify(db[id].pop(id))
+        with open('static/games.json', "w") as json_file:
+            json.dump(db, json_file)
+        data = jsonify(deleted)
+    return data
+
 
 
 if __name__ == '__main__':
