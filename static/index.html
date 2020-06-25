@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to your GamesDB</title>
+    <style>
+        #rectangle {
+            height: 50px;
+            width: 100px;
+            background-color: #00f28f;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome GameDB</h1>
+    <h3>What the hell I'm looking at?</h3>
+    <p>This is a little project I've done to learn a little bit of <span
+            style="font-weight: 800; color: green">python</span>:</p>
+    <section id="routes">
+        <ul>
+            <h4>This is a list of the routes and what you can do on them by using <span
+                    style="font-weight: 800; color: orangered">POSTMAN</span></h4>
+            <li>
+                <p>A GET to "/" will bring you this HTML Static file. There is not any other possible petition type to
+                    "/".</p>
+            </li>
+            <li>
+                <p>A GET to "/games will bring you a JSON with all the Games on the DB (JSON file on the Static
+                    folder).</p>
+            </li>
+            <li>
+                <p>A GET to "/games/{GameId}" will bring you a JSON with the solicited game if the GamesId exist </p>
+            </li>
+            <li>
+                <p>A POST to "/games/{GameId}" with a proper JSON object would let you, as expect, sabe a new Game to
+                    the DB.
+                </p>
+            </li>
+            <li>
+                <p>A PUT to "/games/{GameId}" with a proper JSON object would let you update a new Game to the DB.
+                </p>
+            </li>
+            <li>
+                <p>A DELETE to "/games/{GameId}" will Delete the game which GameId is related to.
+                    <br />
+                    <span style="font-size: 7; font-weight: 800">
+                        This can only be undone by downloading again the repo.
+                    </span>
+                </p>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>

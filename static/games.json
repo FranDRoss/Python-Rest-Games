@@ -1,0 +1,70 @@
+[
+    {
+        "developer": {
+            "country": "japan",
+            "creation": 1989,
+            "name": "GameFreak"
+        },
+        "director": {
+            "age": 54,
+            "fullName": "Satoshi Tajiri",
+            "nationality": "japanese"
+        },
+        "publisher": {
+            "country": "japan",
+            "name": "Nintendo"
+        },
+        "title": "Pokémon Blue"
+    },
+    {
+        "developer": {
+            "country": "japan",
+            "creation": 1989,
+            "name": "GameFreak"
+        },
+        "director": {
+            "age": 54,
+            "fullName": "Satoshi Tajiri",
+            "nationality": "japanese"
+        },
+        "publisher": {
+            "country": "japan",
+            "name": "Nintendo"
+        },
+        "title": "Pokémon Green"
+    },
+    {
+        "developer": {
+            "country": "japan",
+            "creation": 1989,
+            "name": "GameFreak"
+        },
+        "director": {
+            "age": 54,
+            "fullName": "Satoshi Tajiri",
+            "nationality": "japanese"
+        },
+        "publisher": {
+            "country": "japan",
+            "name": "Nintendo"
+        },
+        "title": "Pokémon Red"
+    },
+    {
+        "developer": {
+            "country": "japan",
+            "creation": 1983,
+            "name": "Nintendo EAD"
+        },
+        "director": {
+            "age": 67,
+            "fullName": "Shigeru Miyamoto",
+            "nationality": "japanese"
+        },
+        "publisher": {
+            "country": "japan",
+            "name": "Nintendo"
+        },
+        "title": "Super Mario Bros"
+    }
+]
